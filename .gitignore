@@ -2,5 +2,7 @@ node_modules
 package.json
 package-lock.json
 autosave/
+build/
+pack_map
 \#*
 *~
