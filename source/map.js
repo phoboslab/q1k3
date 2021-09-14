@@ -46,7 +46,7 @@ map_load_container = async (path) => {
 		for (let j = 0; j < b.length;) {
 
 			// First value is either the x coordinate or a texture change
-			// sentinel value (255) followed by the texture coordinate
+			// sentinel value (255) followed by the texture index
 			if (b[j] == 255) {
 				j++;
 				t = b[j++];

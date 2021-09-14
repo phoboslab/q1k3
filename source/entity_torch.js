@@ -10,8 +10,8 @@ class entity_torch_t extends entity_t {
 		this.p.z -= 16;
 		this._light_pos = this.p;
 
-		// Find which wall we're on; move to the torch model towards the wall
-		// and the light position outwards
+		// Find which wall we're on; move the torch model towards the wall and 
+		// the light position outwards
 		for (let trace_dir of [vec3(-32,0,0), vec3(32,0,0), vec3(0,0,-32), vec3(0,0,32)]) {
 			let trace_end = vec3_add(this.p, trace_dir);
 			if (map_trace(this.p, vec3_add(this.p, trace_dir))) {
