@@ -70,14 +70,14 @@ class entity_t {
 			original_step_height = this._step_height,
 			move_dist = vec3_mulf(this.v, game_tick),
 			steps = Math.ceil(vec3_length(move_dist) / 16),
-			move_step_height = vec3_mulf(move_dist, 1/steps);
+			move_step = vec3_mulf(move_dist, 1/steps);
 
 		for (let s = 0; s < steps; s++) {
 			// Remember last position so we can roll back
 			let lp = vec3_clone(this.p);
 
 			// Integrate velocity into position
-			this.p = vec3_add(this.p, move_step_height);
+			this.p = vec3_add(this.p, move_step);
 
 			// Collision with walls, horizonal
 			if (this._collides(vec3(this.p.x, lp.y, lp.z))) {
