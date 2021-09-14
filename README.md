@@ -27,6 +27,8 @@ Play here: https://phoboslab.org/q1k3/
 ### Libs used
 - [Tiny Texture Tumbler](https://github.com/phoboslab/ttt) for texture generation
 - A minified fork of [Sonant-X](https://github.com/nicolas-van/sonant-x) for sounds and music
+- [UglifyJS3](https://www.npmjs.com/package/uglify-js) to minify the source
+- [Roadroller](https://github.com/lifthrasiir/roadroller/) for further source compression
 
 
 ### License
