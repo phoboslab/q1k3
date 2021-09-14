@@ -10,8 +10,8 @@
 let keymap = {
 		W: 1, p: 1, // Key[W] or ArrowU[p]
 		A: 2, e: 2, // Key[A] or ArrowL[e]ft
-		S: 3, o: 3, // Key[S] or ArrowR[o]ght
-		D: 4, i: 4, // Key[D] or ArrowD[i]wn
+		S: 3, o: 3, // Key[S] or ArrowD[o]wn
+		D: 4, i: 4, // Key[D] or ArrowR[i]ght
 		Q: 5,       // Key[Q]
 		E: 6,       // Key[E]
 		c: 9,       // KeySpa[c]e
