@@ -2,6 +2,14 @@
 
 My entry for the 2021 [js13k](https://js13kgames.com/) competition.
 
+### Quick start
+```
+npm i
+npm run build
+npm run start
+```
+
+### Official Demo
 Play here: https://phoboslab.org/q1k3/
 
 ### Controls
