@@ -109,7 +109,7 @@ npx uglify-js build/game.packed.js \
 	--compress --mangle toplevel --mangle-props regex=/^_/ \
 	-o build/game.min.js
 
-npx roadroller -Zab14 -Zlr1113 -Zmd16 -Zpr14 -S0,1,2,3,6,7,13,21,25,50,235,333 build/game.min.js -o build/game.roadrolled.js
+npx roadroller -Zab14 -Zlr930 -Zmd19 -Zpr14 -S0,1,2,3,7,13,14,19,58,97,305,422 build/game.min.js -o build/game.roadrolled.js
 
 # Embed source into HTML
 sed -e '/GAME_SOURCE/{r build/game.roadrolled.js' -e 'd}' source/html_template.html > build/index.html

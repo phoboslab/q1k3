@@ -24,7 +24,7 @@ class entity_player_t extends entity_t {
 
 	_update() {
 		// Mouse look
-		this._pitch = clamp(this._pitch + mouse_y * m.value * 0.00015, -1.5, 1.5);
+		this._pitch = clamp(this._pitch + mouse_y * m.value * (mi.checked ? -0.00015 : 0.00015), -1.5, 1.5);
 		this._yaw = (this._yaw + mouse_x * m.value * 0.00015) % (Math.PI*2);
 
 		// Acceleration in movement direction

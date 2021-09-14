@@ -17,7 +17,7 @@ document.body.innerHTML +=
 		'<div id="h"></div><div id="a"></div>'+
 		'<div id="msg"></div>'+
 	'</div>'+
-	'<p>MOUSE SPEED: <input id="m" type="range" value=10 min=1 max=50></p>'+
+	'<p>MOUSE SPEED: <input id="m" type="range" value=10 min=1 max=50> INVERT: <input type="checkbox" id="mi"></p>'+
 	'<p><input id="f" type="button" value="FULLSCREEN"></p>'+
 	'<p>'+
 		'code: <a href="https://phoboslab.org">phoboslab.org</a> / music: <a href="http://no-fate.net">no-fate.net</a>'+
