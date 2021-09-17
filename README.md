@@ -36,3 +36,10 @@ MIT Licensed
 
 Please be aware that this projects makes use of Sonant-X (albeit heavily modified) 
 which is published under the zlib license.
+
+### How to play locally
+```bash
+./build.sh
+python3 server.py
+```
+Then look at port 8000 for the game.
