@@ -44,6 +44,7 @@ sfx_enemy_hound_attack,
 
 sfx_no_ammo,
 sfx_hurt,
+sfx_pickup,
 
 sfx_plasma_shoot,
 
