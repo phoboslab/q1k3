@@ -37,7 +37,6 @@ map_load_container = async (path) => {
 	for (let i = 0; i < data.length;) {
 		let blocks_size = data[i++] | (data[i++] << 8),
 			cm = new Uint8Array(map_size * map_size * map_size >> 3), // collision map
-			nm = new Uint8Array(map_size * map_size * map_size >> 3), // nav map
 			b = data.subarray(i, i += blocks_size),
 			r = [],
 			t;
