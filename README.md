@@ -4,6 +4,8 @@ My entry for the 2021 [js13k](https://js13kgames.com/) competition.
 
 Play here: https://phoboslab.org/q1k3/
 
+Making Of: https://phoboslab.org/log/2021/09/q1k3-making-of
+
 ### Controls
 - Movement: WASD or Arrow Keys
 - Attack: Left Mouse Button
