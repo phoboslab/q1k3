@@ -192,7 +192,7 @@ class entity_t {
 
 	_spawn_particles(amount, speed = 1, model, texture, lifetime) {
 		for (let i = 0; i < amount; i++) {
-			let particle = game_spawn(entity_particle_t, this.p);
+			let particle = game_spawn(entity_particle_t, vec3_clone(this.p));
 			particle._model = model;
 			particle._texture = texture;
 			particle._die_at = game_time + lifetime + Math.random() * lifetime * 0.2;
