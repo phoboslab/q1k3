@@ -116,7 +116,7 @@ R_SOURCE_FS =
 		// 'gl_FragColor=vec4(1.0,1.0,1.0,1.0);' + 
 
 		// Calculate all lights
-		'vec3 vl;' +
+		'vec3 vl=vec3(0,0,0);' +
 		'for(int i=0;i<'+R_MAX_LIGHT_V3+';i+=2) {' +
 			'vl+=' +
 				// Angle to normal
