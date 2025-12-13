@@ -124,7 +124,13 @@ game_load = async () => {
 
 	f.onclick = () => g.requestFullscreen();
 	g.onclick = () => {
-		g.onclick = () => c.requestPointerLock();
+		g.onclick = async () => {
+			try {
+				await c.requestPointerLock({ unadjustedMovement: true });
+			} catch (error) {
+				await c.requestPointerLock();
+			}
+		};
 		g.onclick();
 		
 		audio_init();
